@@ -1,0 +1,12 @@
+syntax = "proto3";
+package planet.blog;
+
+option go_package = "planet/x/blog/types";
+
+message UpdatePost {
+  uint64 id = 1;
+  string postID = 2; 
+  string title = 3; 
+  string content = 4; 
+  
+}
